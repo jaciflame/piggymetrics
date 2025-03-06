@@ -2,7 +2,7 @@ name: AzureSpringApps
 on: push
 env:
   ASC_PACKAGE_PATH: ${{ github.workspace }}
-  AZURE_SUBSCRIPTION: Azure for Students
+  AZURE_SUBSCRIPTION: 92f236ae-a4df-48fe-9424-e60bdb0ac3fb
 
 jobs:
   deploy_to_production:
